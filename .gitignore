@@ -1,6 +1,6 @@
 # Ignore the build output folders
-/bin/
-/obj/
+**/bin/
+**/obj/
 
 # User-specific files
 *.user
@@ -13,3 +13,7 @@
 
 # Windows files
 Thumbs.db
+
+*.code-workspace
+
+*.sln
